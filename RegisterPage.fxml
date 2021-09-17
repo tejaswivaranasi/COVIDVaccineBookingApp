@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="500.0" style="-fx-background-color: a0a7cc;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterPageController">
+   <children>
+      <TextField fx:id="lastname" layoutX="165.0" layoutY="143.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="74.5" layoutY="149.0" text="Last Name:" AnchorPane.rightAnchor="339.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="42.0" text="Enter your details to Register" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="107.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sex" layoutX="165.0" layoutY="323.0" prefHeight="29.0" prefWidth="267.0" promptText="Male / Female / Other">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="127.0" layoutY="329.0" text="Sex:" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="occupation" layoutX="165.0" layoutY="368.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="67.0" layoutY="374.0" text="Occupation:" AnchorPane.rightAnchor="340.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="postCode" layoutX="165.0" layoutY="458.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="64.0" layoutY="464.0" text="Postal Code:" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="education" layoutX="165.0" layoutY="413.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="35.0" layoutY="419.0" text="Education Level:" AnchorPane.rightAnchor="340.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="284.0" text="Password:" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email" layoutX="165.0" layoutY="233.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="114.0" layoutY="239.0" text="Email:" AnchorPane.rightAnchor="340.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="191.0" text="DOB:" AnchorPane.rightAnchor="340.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="register" layoutX="207.0" layoutY="507.0" mnemonicParsing="false" onAction="#RegisterAction" text="Register" AnchorPane.leftAnchor="207.0" AnchorPane.rightAnchor="206.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="219.0" layoutY="551.0" mnemonicParsing="false" onAction="#BackAction" text="Back" AnchorPane.leftAnchor="219.0" AnchorPane.rightAnchor="219.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="dob" layoutX="165.0" layoutY="188.0" prefHeight="29.0" prefWidth="267.0" promptText="MM-DD-YYYY" AnchorPane.leftAnchor="165.0" />
+      <TextField fx:id="firstname" layoutX="165.0" layoutY="98.0" prefHeight="29.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="74.0" layoutY="104.0" text="First Name:" AnchorPane.rightAnchor="339.5">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="password" layoutX="165.0" layoutY="278.0" prefHeight="35.0" prefWidth="267.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+   </children>
+</AnchorPane>
